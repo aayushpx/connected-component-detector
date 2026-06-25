@@ -109,19 +109,23 @@ Put the converted files in an `images/` folder at the repo root and the table ab
 ## Project Structure
 
 ```
-connected-component-detector/
+vision-component-detector/
 ├── src/
 │   ├── main.cpp
 │   ├── image.cpp
-│   └── detector.cpp
+│   ├── detector.cpp
+│   └── renderer.cpp
 ├── include/
 │   ├── image.h
-│   └── detector.h
+│   ├── detector.h
+│   └── renderer.h
 ├── images/
+│   ├── Buttons.ppm
 │   ├── input.png
-│   └── output.png
-├── data/
-│   └── Buttons.ppm
+│   ├── output.png
+│   └── output.ppm
+├── app
+├── LICENSE
 └── README.md
 ```
 
