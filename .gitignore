@@ -1,0 +1,13 @@
+# binaries
+bin/
+build/
+*.out
+cpu
+a.out
+
+# OS
+.DS_Store
+
+# editor
+.vscode/
+.idea/
